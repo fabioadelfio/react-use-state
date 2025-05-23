@@ -81,6 +81,12 @@ button:focus-visible {
   color: #212529;
 }
 
+.info-language {
+  font-size: 1.3rem;
+  margin-top: 30px;
+  border: 1px solid lightgray;
+}
+
 .bold {
   font-weight: bold;
   font-size: 2rem;

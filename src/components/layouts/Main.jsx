@@ -1,4 +1,5 @@
 import ButtonsList from "../products/ButtonsList";
+import LanguageDescription from "../products/LanguageDescription";
 
 export default function Main() {
   return (
