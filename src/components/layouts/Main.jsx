@@ -1,7 +1,15 @@
+import ButtonsList from "../products/ButtonsList";
+
 export default function Main() {
   return (
     <main>
-      <h1>App React</h1>
+      <div className="container">
+        <section className="title bold p-3 fs-1">Learn Web Development</section>
+
+        <section className="language-buttons m-5">
+          <ButtonsList />
+        </section>
+      </div>
     </main>
   );
 }

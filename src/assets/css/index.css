@@ -67,13 +67,18 @@ button:focus-visible {
 }
 
 .container {
-  max-width: 1100px;
-  margin: auto;
+  padding: 0;
+  max-width: 1050px;
+  height: 75vh;
+  background-color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
+}
+
+.title {
+  background-color: #F8F9FA;
+  width: 100%;
+  color: #212529;
 }
 
 .bold {
